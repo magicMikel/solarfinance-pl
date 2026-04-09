@@ -1,0 +1,26 @@
+baseURL = "https://solarfinance.pl/"
+languageCode = "pl-PL"
+title = "Solar Finance PL"
+defaultContentLanguage = "pl"
+enableRobotsTXT = true
+summaryLength = 160
+[pagination]
+  pagerSize = 12
+copyright = "© 2026 solarfinance.pl"
+[params]
+  siteName = "Solar Finance PL"
+  siteDescription = "Analizy finansowe i inwestycje w OZE"
+  siteKeywords = "solar finance, fotowoltaika inwestycje, OZE ROI, green bonds"
+  author = "Redakcja Solar Finance PL"
+  dateFormat = "2 January 2006"
+[taxonomies]
+  category = "kategorie"
+  tag = "tagi"
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+[sitemap]
+  changefreq = "daily"
+  priority = 0.5
+  filename = "sitemap.xml"
